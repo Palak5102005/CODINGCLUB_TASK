@@ -40,8 +40,8 @@ GOOGLE_API_KEY=your_gemini_key
 OPENWEATHER_API_KEY=your_weather_key
 Open task2.ipynb and run cells step-by-step
 
-Submitted by: Palak Singhal
-Coding Week 2025 – Machine Learning Task (IIT Guwahati)
+**Submitted by: Palak Singhal
+Coding Week 2025 – Machine Learning Task (IIT Guwahati)**
 
 
 
