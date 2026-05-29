@@ -1,27 +1,39 @@
+CampusPulse — Student Life Analytics & Prediction
+Task Summary
+CampusPulse is a data science project designed to analyze student life patterns using anonymized survey data. The objective is to uncover meaningful insights and build a model to predict if a student is likely to be in a romantic relationship.
 
-# Machine Learning Tasks
-
-This repository contains two main projects completed :
-
-## Projects
-
-### 1. Task 1 (Campus pulse)
-- Analysis of the CampusPulse survey dataset.
-- Includes Jupyter notebook with data analysis and modeling.
-- Accompanied by a detailed PDF report.
-#### **This Jupyter notebook(CampusPulsetask.ipnb) is intended to be run locally using **VS Code** (or any Jupyter-supported environment).
-
- The notebook was developed and tested in **VS Code**. Please ensure:
-- Python 3.8+ is installed
-- Jupyter extension is enabled
-- Required libraries (`pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`) are installed.
-
-
-
-### 2. Task 2 (Weather mind)
-- Development of an AI agent for weather-based fashion advice.
-- Includes Jupyter notebook implementing the agent.
-- Accompanied by a detailed PDF report.
-
-
----
+Notebook Overview
+Task 1 — Levels Breakdown
+Level 1: Variable Identification Protocol
+Loaded the dataset and began exploratory analysis.
+Used correlation heatmaps and scatterplots to deduce what Feature_1, Feature_2, and Feature_3 might represent.
+Suggested possible identities (e.g., GPA, screen time, etc.) based on statistical behavior.
+Level 2: Data Integrity Audit
+Detected null values and inconsistencies.
+Imputed values using mean, mode, and conditional strategies.
+Clearly justified every imputation approach with markdown explanations.
+Level 3: Exploratory Insight Report
+Explored questions such as:
+Q1: Does parental education affects student's academic performance?
+Q2: Does weekday alcohol consumptions affects the academic performanace?
+Q3: How does free time influence going out?
+Q4: Does living lifestyle affects student's academic performance?
+Q5: Does travel time reduce a student’s free time?
+Included visualizations: bar plots, box plots, violin plots, etc.
+Each visualization is followed by a short but sharp insight.
+Level 4: Relationship Prediction Model
+Applied multiple classifiers (Logistic Regression, Random Forest, XGBoost).
+Evaluated using accuracy, F1-score, ROC curves.
+Discussed strengths and weaknesses of each model.
+Level 5: Model Reasoning & Interpretation
+Used SHAP for global and local interpretability.
+Visualized decision boundaries with selected feature pairs.
+Explained decisions for both "Yes" and "No" predictions in plain language.
+Files Included
+CampusPulseTask.ipynb: Jupyter notebook with code and explanations.
+CampusPulse_Report.pdf: Complete write-up of approach, analysis, results.
+Tools & Libraries
+Python, Pandas, Seaborn, Matplotlib, Scikit-learn, SHAP
+Notes
+All plots are labeled and interpreted.
+Markdown sections clearly guide the reader through the logic and learning process.
