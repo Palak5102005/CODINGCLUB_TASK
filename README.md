@@ -1,53 +1,27 @@
-# CODINGCLUB_RECRUITMENT TASK
-TASK: 1
-# WeatherMind AI Agent 
 
-**WeatherMind** is a multi-agent conversational AI system built using LangGraph and LangChain.
-It supports reasoning, memory, tool use, and autonomous routing across agents.
+# Machine Learning Tasks
 
+This repository contains two main projects completed :
 
-# Features
+## Projects
 
-- BODMAS calculator agent
-- Current Weather predictor
-- Fashion trend recommender
-- Multi-turn memory-aware chat
-- Tool routing via LangGraph supervisor
-- SHAP explanations and decision boundaries
+### 1. Task 1 (Campus pulse)
+- Analysis of the CampusPulse survey dataset.
+- Includes Jupyter notebook with data analysis and modeling.
+- Accompanied by a detailed PDF report.
+#### **This Jupyter notebook(CampusPulsetask.ipnb) is intended to be run locally using **VS Code** (or any Jupyter-supported environment).
 
-
-# Tools & Models Used
-
-- LangGraph
-- LangChain + Gemini
-- SHAP for explainability (Task 1)
-- Matplotlib / NetworkX for graph rendering
-- OpenWeather API for live weather
-- Hardcoded fashion database
+ The notebook was developed and tested in **VS Code**. Please ensure:
+- Python 3.8+ is installed
+- Jupyter extension is enabled
+- Required libraries (`pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`) are installed**
 
 
+
+### 2. Task 2 (Weather mind)
+- Development of an AI agent for weather-based fashion advice.
+- Includes Jupyter notebook implementing the agent.
+- Accompanied by a detailed PDF report.
 
 
 ---
-
-# How to Run
-
-1. Install dependencies:
-pip install -r requirements.txt
-Add your API keys in a .env file:
-
-GOOGLE_API_KEY=your_gemini_key
-OPENWEATHER_API_KEY=your_weather_key
-Open task2.ipynb and run cells step-by-step
-
-**Submitted by: Palak Singhal
-Coding Week 2025 – Machine Learning Task (IIT Guwahati)**
-
-
-
-
-
-
-
-
-
