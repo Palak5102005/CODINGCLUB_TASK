@@ -14,7 +14,7 @@ This repository contains two main projects completed :
  The notebook was developed and tested in **VS Code**. Please ensure:
 - Python 3.8+ is installed
 - Jupyter extension is enabled
-- Required libraries (`pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`) are installed**
+- Required libraries (`pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`) are installed.
 
 
 
